@@ -1,0 +1,11 @@
+1. Install the tesseract library on your local computer using the official installer. For windows go to https://digi.bib.uni-mannheim.de/tesseract/ . 
+
+2. Add tesseract to your system's PATH environment variables. Search open and the "edit the system environment variables" from the start menu. Click "environment variables" . Open your file explorer and navigate to the default install folder for tesseract at C:\Program Files\Tesseract-OCR . Copy this path and navigate to the system environment variables window. Select the path environment variable and click edit. Click "new", paste in the path and click ok. Navigate to command prompt and type "tesseract --help" to see the list of commands. If this works then the path was configured correctly.
+
+3. Install tesseract as a dependency in your express project using npm by running "npm i node-tesseract-ocr". (NOTE: You can read about how to use tesseract in a nodejs project at "https://www.npmjs.com/package/node-tesseract-ocr").
+
+4. Install multer as a dependency to handle the file upload. This is done using npm by running "npm i multer" . (NOTE : You can read about how to use multer in a nodejs app at "https://www.npmjs.com/package/multer").
+
+5. Install ejs which acts as a view engine for your application. This is done using npm by running "npm i ejs" . (NOTE : You can read about how to use ejs in a nodejs app at "https://www.npmjs.com/package/ejs").
+
+6. Install uuid
